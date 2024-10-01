@@ -4,9 +4,9 @@ class Clocking:
     """Using database as a test. the database argument would be replaced with however we access the actual database"""
     working = False
 
-    def __init__(self, person_id:int, database:dict) -> None:
+    def __init__(self, id:int, database:dict) -> None:
         # id could also be the name or whatever would be used to identify the person
-        self.id = database[person_id]
+        self.id = database[id]
 
     def punch_in(self):
         if self.working:
