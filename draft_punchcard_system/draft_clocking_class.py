@@ -1,4 +1,4 @@
-from test_punchcard_system.test_punchcard import Clocking
+from draft_punchcard_system.test_draft_clocking_sys import Clocking
 # sleep is only for testing and is not needed
 from time import sleep
 
